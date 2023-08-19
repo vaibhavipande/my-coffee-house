@@ -1,0 +1,47 @@
+body
+{
+    background-color: cornsilk;
+}
+.my-bg-photo{
+    background: url("https://img.freepik.com/premium-photo/coffee-beans-background-roasted-coffee-beans-dark-black-stone-background-top-view-coffee-concept-mock-up_253362-15554.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.my-bg-photo  {
+    position: relative;
+    z-index: 10;
+}
+
+.my-bg-photo:before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    font-size: 10;
+    opacity:1;
+    
+}
+
+.mydisplay{
+    font-size:3.5rem;font-weight:bold;line-height:1.2
+}
+.my-custom-container {
+    max-width: 900px;
+}
+ .accordion .btn-link:focus {
+     box-shadow: none;
+ }
+ 
+ .my-drawing {
+     transition: all .33s ease-out;
+ }
+
+ .my-drawing:hover {
+     transform: scale(1.054) rotate(12 deg);
+ }
+
